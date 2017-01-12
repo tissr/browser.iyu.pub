@@ -1,0 +1,9 @@
+<html>
+<head>
+	<script language="javascript" type="text/javascript"> 
+		// 以下方式直接跳转
+		window.location.href='http://tingbrowser.xyz';
+	</script>
+</head>
+<body></body>
+</html>
