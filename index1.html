@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>TingBrowser   --你想要的一切，TingBrowser都会给你！</title>
+
+    
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="favicon.ico" rel="shortcut icon">
+
+    
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+	
+	<style>
+		body{
+			padding-top:50px;
+			padding-bottom: 30px;
+		}
+		
+		.carousel{
+			height:600px;
+			margin-bottom: 60px;
+			background-color:#000;
+		}
+		
+		.carousel .item{
+			height:600px;
+			background-color:#000;
+		}
+		
+		.carousel img{
+			width:100%;
+		}
+		
+		.carousel-caption p{
+			margin-bottom:20px;
+			font-size:20px;
+			line-height:1.8;
+		}
+		
+		.summary {
+            padding-right: 15px;
+            padding-left: 15px;
+			
+        }
+		
+		.summary img{
+            height:200px;
+        }
+		
+		.summary .col-md-6 {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+		
+		
+		
+		hr.divider{
+			margin:50px 0;
+		}
+		
+		.feature{
+			margin:padding:30px 0;
+		}
+		
+		.feature-heading{
+			font-size:50px;
+			color:#2a6496;
+			margin-top:120px;
+		}
+		
+		.feature-heading .text-muted{
+			font-size:28px;
+		}
+		
+		.use-heading{
+			font-size:30px;
+			color:#2a6496;
+			margin-top:120px;
+		}
+		
+		.cnzz{
+			margin-left:50%;
+		}
+		
+	</style>
+	
+	
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+	  <div class="container">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#demo-navbar" aria-expanded="false">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		  </button>
+		  <a class="navbar-brand" href="#">TingBrowser</a>
+		</div>
+
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse" id="demo-navbar">
+		  <ul class="nav navbar-nav">
+			<li class="active"><a href="#divider_download">下载地址 <span class="sr-only">(current)</span></a></li>
+			<li class="dropdown">
+			  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">软件介绍<span class="caret"></span></a>
+			  <ul class="dropdown-menu" role="menu">
+				<li><a href="#tab-chrome">TingChrome</a></li>
+				<li role="separator" class="divider"></li>
+				<li><a href="#tab-firefox">TingFirefox</a></li>
+				<li role="separator" class="divider"></li>
+				<li><a href="#tab-cent">TingCent</a></li>
+				<li role="separator" class="divider"></li>
+				<li><a href="#tab-vivaldi">TingVivaldi</a></li>
+				<li role="separator" class="divider"></li>
+				<li><a href="#tab-360chrome">Ting360Chrome</a></li>
+				<li role="separator" class="divider"></li>
+				<li><a href="#tab-adsafese">TingAdsafese</a></li>
+			  </ul>
+			</li>
+			<li><a href="#divider_use">使用教程</a></li>
+			<li><a href="#divider_duty">责任声明</a></li>
+			<li><a href="#" data-toggle="modal" data-target="#about">关于</a></li>
+			
+		  </ul>
+		  
+		  <ul class="nav navbar-nav navbar-right">
+			<li><a href="http://www.iyu.pub" target="_blank">我们的旅途</a></li>
+			<li><a href="http://blog.iyu.pub" target="_blank">听风吟且行</a></li>
+			<li><a href="http://ss.iyu.pub" target="_blank"><SPAN style="TEXT-DECORATION: line-through">免费SS账号</SPAN></a></li>
+		  </ul>
+		</div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+
+	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+	  <!-- Indicators -->
+	  <ol class="carousel-indicators">
+		<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+		<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+		<li data-target="#carousel-example-generic" data-slide-to="2"></li>
+		<li data-target="#carousel-example-generic" data-slide-to="3"></li>
+		<li data-target="#carousel-example-generic" data-slide-to="4"></li>
+		<li data-target="#carousel-example-generic" data-slide-to="5"></li>
+		
+	  </ol>
+
+	  <!-- Wrapper for slides -->
+	  <div class="carousel-inner" role="listbox">
+		<div class="item active">
+		  <img src="images/chrome.jpg" alt="TingChrome">
+		  <div class="carousel-caption">
+			<p>TingChrome 是基于 Google Chrome 制作的免费浏览器</p>
+			<p>集成过滤视频广告、网页广告等的扩展,采用特殊的缓存技术加速网站的打开</p>
+			<p>内置ShadowSocks工具</p>
+			<p><a class="btn btn-default" href="#divider_download" role="button">点击下载</a></p>
+		  </div>
+		</div>
+		<div class="item">
+		  <img src="images/firefox.jpg" alt="TingFirefox">
+		  <div class="carousel-caption">
+			<p>TingFirefox 是基于 Firefox 制作的免费浏览器</p>
+			<p>集成过滤视频广告、网页广告等的扩展,集成Tab Mix Plus插件加强Firefox 的标签页浏览功能</p>
+			<p>内置ShadowSocks工具</p>
+			<p><a class="btn btn-default" href="#divider_download" role="button">点击下载</a></p>
+		  </div>
+		</div>
+		<div class="item">
+		  <img src="images/cent.jpg" alt="TingCent">
+		  <div class="carousel-caption">
+			<p>TingCent 是基于 CentBrowser 制作的免费浏览器</p>
+			<p>集成滚动标签栏、内存自动优化、延迟会话加载、鼠标手势、超级拖拽以及多标签页选项等功能</p>
+			<p>内置ShadowSocks工具</p>
+			<p><a class="btn btn-default" href="#divider_download" role="button">点击下载</a></p>
+		  </div>
+		</div>
+		<div class="item">
+		  <img src="images/vivaldi.jpg" alt="TingVivaldi">
+		  <div class="carousel-caption">
+			<p>TingVivaldi 是基于 Vivaldi 制作的免费浏览器</p>
+			<p>集成个性化笔记,迷你屏幕截图,多个组群和文件夹选项的快速拨号等功能</p>
+			<p>内置ShadowSocks工具</p>
+			<p><a class="btn btn-default" href="#divider_download" role="button">点击下载</a></p>
+		  </div>
+		</div>
+		<div class="item">
+		  <img src="images/360chrome.jpg" alt="Ting360Chrome">
+		  <div class="carousel-caption">
+			<p>Ting360Chrome 是基于 360Chrome 制作的免费浏览器</p>
+			<p>闪电般的浏览速度、完备的安全特性及海量丰富的实用工具扩展</p>
+			<p>内置ShadowSocks工具</p>
+			<p><a class="btn btn-default" href="#divider_download" role="button">点击下载</a></p>
+		  </div>
+		</div>
+		<div class="item">
+		  <img src="images/adsafese.jpg" alt="TingAdsafese">
+		  <div class="carousel-caption">
+			<p>TingAdsafese 是基于 Adsafese 制作的免费浏览器</p>
+			<p>集成净网大师专业的广告拦截功能，可屏蔽全网广告，实现网页、视频零广告上网体验</p>
+			<p>内置ShadowSocks工具</p>
+			<p><a class="btn btn-default" href="#divider_download" role="button">点击下载</a></p>
+		  </div>
+		</div>
+		
+	  </div>
+
+	  <!-- Controls -->
+	  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		<span class="sr-only">上一页</span>
+	  </a>
+	  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		<span class="sr-only">下一页</span>
+	  </a>
+	</div>
+
+	
+	
+	<div class="container summary">
+	
+		<hr class="divider" id="divider_download">
+		
+		<div class="row" id="summary-container">
+			<div class="col-md-6">
+				<img class="img-circle" src="images/chrome.png" alt="TingChrome">
+
+				<h2>TingChrome 2017.1.1</h2>
+				
+				<p style="font-size:16px;">1.更新Chrome内核到最新55.0.2883.87</p>
+				<p style="font-size:16px;">2.大幅改进了内存占用的问题       </p>
+				<p style="font-size:16px;">3.优化SS稳定性                    </p>
+				
+				
+
+				<p><a class="btn btn-default" href="http://pan.baidu.com/s/1bprCtfL" target="_blank" role="button">百度网盘下载</a>
+				<!--
+				<a class="btn btn-default" href="http://url.cn/40kse5f" target="_blank" role="button">微云下载</a>
+				<a class="btn btn-default" href="http://yuolvv.ctfile.com/shared/folder_17558105_9020f24e/" target="_blank" role="button">备用下载</a></p>
+				-->
+				<a class="btn btn-default" href="https://my.pcloud.com/publink/show?code=kZiuhCZPQ9AMrvbG0FFxjHsiUbIFyuHF3o7" target="_blank" role="button">备用下载</a></p>
+			</div>
+			<div class="col-md-6">
+				<img class="img-circle" src="images/firefox.png" alt="TingFirefox">
+
+				<h2>TingFirefox 2016.12.1</h2>
+
+				<p style="font-size:16px;">1.更新Firefox版本到最新50.0.2</p>
+				<p style="font-size:16px;">2.修复了中文输入法崩溃的问题</p>
+				<p style="font-size:16px;">3.优化SS稳定性</p>
+
+				<p><a class="btn btn-default" href="http://pan.baidu.com/s/1qYpPXXa" target="_blank" role="button">百度网盘下载</a>
+				<!--
+				<a class="btn btn-default" href="http://url.cn/40kr4Ni" target="_blank" role="button">微云下载</a>
+				<a class="btn btn-default" href="http://yuolvv.ctfile.com/shared/folder_17835356_1a27d95b/" target="_blank" role="button">备用下载</a></p>
+				-->
+				<a class="btn btn-default" href="https://my.pcloud.com/publink/show?code=kZiuhCZPQ9AMrvbG0FFxjHsiUbIFyuHF3o7" target="_blank" role="button">备用下载</a></p>
+			</div>
+			<div class="col-md-6">
+				<img class="img-circle" src="images/cent.png" alt="TingCent">
+
+				<h2>TingCent 2016.12.1</h2>
+
+				<p style="font-size:16px;">1.升级至 Chromium 54.0.2840.99 </p>
+				<p style="font-size:16px;">2.优化SS稳定性</p>
+
+				<p><a class="btn btn-default" href="http://pan.baidu.com/s/1gfLqxqV" target="_blank" role="button">百度网盘下载</a>
+				<!--
+				<a class="btn btn-default" href="http://url.cn/40kr4Ni" target="_blank" role="button">微云下载</a>
+				<a class="btn btn-default" href="http://yuolvv.ctfile.com/shared/folder_18563876_bded9d89/" target="_blank" role="button">备用下载</a></p>
+				-->
+				<a class="btn btn-default" href="https://my.pcloud.com/publink/show?code=kZiuhCZPQ9AMrvbG0FFxjHsiUbIFyuHF3o7" target="_blank" role="button">备用下载</a></p>
+			</div>
+			<div class="col-md-6">
+				<img class="img-circle" src="images/vivaldi.png" alt="TingVivaldi">
+
+				<h2>TingVivaldi 2016.12.1</h2>
+
+				<p style="font-size:16px;">1.升级Chrome内核到55.0.2883.64 </p>
+				<p style="font-size:16px;">2.优化SS稳定性</p>
+
+				<p><a class="btn btn-default" href="http://pan.baidu.com/s/1kVjU2WJ" target="_blank" role="button">百度网盘下载</a>
+				<!--
+				<a class="btn btn-default" href="http://url.cn/40kr4Ni" target="_blank" role="button">微云下载</a>
+				<a class="btn btn-default" href="http://yuolvv.ctfile.com/shared/folder_18563885_45f043f6/" target="_blank" role="button">备用下载</a></p>
+				-->
+				<a class="btn btn-default" href="https://my.pcloud.com/publink/show?code=kZiuhCZPQ9AMrvbG0FFxjHsiUbIFyuHF3o7" target="_blank" role="button">备用下载</a></p>
+			</div>
+			<div class="col-md-6">
+				<img class="img-circle" src="images/360chrome.png" alt="Ting360Chrome">
+
+				<h2>Ting360Chrome 2016.12.1</h2>
+
+				<p style="font-size:16px;">1.升级Chrome内核到50.0.2661.102 </p>
+				<p style="font-size:16px;">2.优化SS稳定性</p>
+
+				<p><a class="btn btn-default" href="http://pan.baidu.com/s/1hswT3N2" target="_blank" role="button">百度网盘下载</a>
+				<!--
+				<a class="btn btn-default" href="http://url.cn/40kr4Ni" target="_blank" role="button">微云下载</a>
+				<a class="btn btn-default" href="http://yuolvv.ctfile.com/shared/folder_18563885_45f043f6/" target="_blank" role="button">备用下载</a></p>
+				-->
+				<a class="btn btn-default" href="https://my.pcloud.com/publink/show?code=kZiuhCZPQ9AMrvbG0FFxjHsiUbIFyuHF3o7" target="_blank" role="button">备用下载</a></p>
+			</div>
+			<div class="col-md-6">
+				<img class="img-circle" src="images/adsafese.png" alt="TingAdsafese">
+
+				<h2>TingAdsafese 2016.12.1</h2>
+
+				<p style="font-size:16px;">1.升级Chrome内核到51.0.2704.106 </p>
+				<p style="font-size:16px;">2.优化SS稳定性</p>
+
+				<p><a class="btn btn-default" href="http://pan.baidu.com/s/1qYfcpEO" target="_blank" role="button">百度网盘下载</a>
+				<!--
+				<a class="btn btn-default" href="http://url.cn/40kr4Ni" target="_blank" role="button">微云下载</a>
+				<a class="btn btn-default" href="http://yuolvv.ctfile.com/shared/folder_18563885_45f043f6/" target="_blank" role="button">备用下载</a></p>
+				-->
+				<a class="btn btn-default" href="https://my.pcloud.com/publink/show?code=kZiuhCZPQ9AMrvbG0FFxjHsiUbIFyuHF3o7" target="_blank" role="button">备用下载</a></p>
+			</div>
+		</div>
+		
+		<hr class="divider">
+		
+		<ul class="nav nav-tabs" role="tablist" id="tablist">
+		  <li class="active"><a href="#tab-chrome" role="tab" data-toggle="tab">TingChrome</a></li>
+		  <li><a href="#tab-firefox" role="tab" data-toggle="tab">TingFirefox</a></li>
+		  <li><a href="#tab-cent" role="tab" data-toggle="tab">TingCent</a></li>
+		  <li><a href="#tab-vivaldi" role="tab" data-toggle="tab">TingVivaldi</a></li>
+		  <li><a href="#tab-360chrome" role="tab" data-toggle="tab">Ting360Chrome</a></li>
+		  <li><a href="#tab-adsafese" role="tab" data-toggle="tab">TingAdsafese</a></li>
+		</ul>
+		
+		<div class="tab-content">
+			<div class="tab-pane active" id="tab-chrome">
+				<div class="row feature">
+					<div class="col-md-9">
+						<h2 class="feature-heading">TingChrome <span class="text-muted">地表最好用的Chrome浏览器</span></h2>
+
+						<p class="lead">TingChrome 是基于 Google Chrome 制作的免费浏览器。</p>
+						<p class="lead">集成过滤视频广告、网页广告等的扩展</p>
+						<p class="lead">采用特殊的缓存技术加速网站的打开</p>
+						<p class="lead">内置ShadowSocks工具(可闪现穿墙)</p>
+							
+					</div>
+					<div class="col-md-3">
+						<img class="feature-image img-responsive" src="images/chrome.png" alt="TingChrome">
+					</div>
+				</div>
+			</div>
+			<div class="tab-pane" id="tab-firefox">
+				<div class="row feature">
+					<div class="col-md-9">
+						<h2 class="feature-heading">TingFirefox <span class="text-muted">地表最好用的Firefox浏览器</span></h2>
+
+						<p class="lead">TingFirefox 是基于 Mozilla Firefox 制作的免费浏览器。</p>
+						<p class="lead">集成Tab Mix Plus插件，加强Firefox 的标签页浏览功能</p>
+						<p class="lead">优化启动速度</p>
+						<p class="lead">内置ShadowSocks工具(可闪现穿墙)</p>
+					</div>
+					<div class="col-md-3">
+						<img class="feature-image img-responsive" src="images/firefox.png" alt="TingFirefox">
+					</div>
+				</div>
+			</div>
+			<div class="tab-pane" id="tab-cent">
+				<div class="row feature">
+					<div class="col-md-9">
+						<h2 class="feature-heading">TingCent <span class="text-muted">便携版CentBrowser</span></h2>
+
+						<p class="lead">TingCent 是基于 CentBrowser 制作的免费浏览器。</p>
+						<p class="lead">集成滚动标签栏、内存自动优化、延迟会话加载、鼠标手势、超级拖拽以及多标签页选项等功能</p>
+						<p class="lead">优化新标签页打开速度</p>
+						<p class="lead">内置ShadowSocks工具(可闪现穿墙)</p>
+					</div>
+					<div class="col-md-3">
+						<img class="feature-image img-responsive" src="images/cent.png" alt="TingCent">
+					</div>
+				</div>
+			</div>
+			<div class="tab-pane" id="tab-vivaldi">
+				<div class="row feature">
+					<div class="col-md-9">
+						<h2 class="feature-heading">TingVivaldi <span class="text-muted">Opera的继承者</span></h2>
+
+						<p class="lead">TingVivaldi 是基于 Vivaldi 制作的免费浏览器。</p>
+						<p class="lead">集成个性化笔记,迷你屏幕截图,多个组群和文件夹选项的快速拨号等功能</p>
+						<p class="lead">Opera的强大情怀</p>
+						<p class="lead">内置ShadowSocks工具(可闪现穿墙)</p>
+					</div>
+					<div class="col-md-3">
+						<img class="feature-image img-responsive" src="images/vivaldi.png" alt="TingVivaldi">
+					</div>
+				</div>
+			</div>
+			<div class="tab-pane" id="tab-360chrome">
+				<div class="row feature">
+					<div class="col-md-9">
+						<h2 class="feature-heading">Ting360Chrome <span class="text-muted">便携版360Chrome</span></h2>
+
+						<p class="lead">Ting360Chrome 是基于 Vivaldi 制作的免费浏览器。</p>
+						<p class="lead">闪电般的浏览速度、完备的安全特性及海量丰富的实用工具扩展</p>
+						<p class="lead">集成鼠标手势、超级拖拽、恢复关闭的标签、地址栏下拉列表等实用功能</p>
+						<p class="lead">内置ShadowSocks工具(可闪现穿墙)</p>
+					</div>
+					<div class="col-md-3">
+						<img class="feature-image img-responsive" src="images/360chrome.png" alt="Ting360Chrome">
+					</div>
+				</div>
+			</div>
+			<div class="tab-pane" id="tab-adsafese">
+				<div class="row feature">
+					<div class="col-md-9">
+						<h2 class="feature-heading">TingAdsafese <span class="text-muted">便携版净网大师浏览器</span></h2>
+
+						<p class="lead">TingAdsafese 是基于 Adsafese 制作的免费浏览器。</p>
+						<p class="lead">集成净网大师专业的广告拦截功能，可屏蔽全网广告，实现网页、视频零广告上网体验</p>
+						<p class="lead">优化浏览器打开速度</p>
+						<p class="lead">内置ShadowSocks工具(可闪现穿墙)</p>
+					</div>
+					<div class="col-md-3">
+						<img class="feature-image img-responsive" src="images/adsafese.png" alt="TingAdsafese">
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<hr class="divider" id="divider_use">
+		
+		<div id="usediv">
+			<span class="use-heading">使用教程</span>
+			<p class="lead">下载软件，双击exe文件安装即可。</p>
+			<p class="lead">软件运行环境最低为.NET 4.0,请先安装.net4.0环境。</p>
+			<p class="lead">运行环境下载地址：<a href="http://pan.baidu.com/s/1bNRBQY" target="_blank">下载地址</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://yuolvv.ctfile.com/fs/ihN160412461" target="_blank">备用下载地址</a></p>
+			<span class="use-heading">注意事项</span>
+			<p class="lead">1.为避免软件运行出错，切忌不要安装在系统盘！！！</p>
+			<p class="lead">2.若SS功能失效，只要重启浏览器即可</p>
+			<p class="lead">3.为了防止和谐，对软件中的部分程序加密处理，若被垃圾杀毒软件误报，请<font color="red">添加信任</font>再使用</p>
+			<p class="lead">4.若遇到启动失败或者无法打开等问题，请重新安装最新版本</p>
+			
+			<span class="use-heading">联系方式</span>
+			<p class="lead">邮箱：<a href="mailto:1@iyu.pub">1@iyu.pub</a>‍</p>
+			<p class="lead">Facebook：<a href="https://www.facebook.com/TingBrowser" target="_blank">TingBrowser</a></p>
+			<p class="lead">TingBrowser交流群：<a href="http://jq.qq.com/?_wv=1027&k=2ITVx7A" target="_blank">365327122</a></p>
+			<p style="text-align:center"><img src="images/qun.png" /></p>
+			
+		</div>
+		
+		<hr class="divider" id="divider_duty">
+		
+		<div id="dutydiv">
+			<span class="use-heading">责任申明</span>
+			<p class="lead">本软件仅仅提供一个学习交流的环境，请安装后在24小时内删除。</p>
+			<p class="lead">如果您下载使用，表示您已经同意自己承担软件使用带来的一切后果！</p>
+			<p class="lead">请勿用于商业及非法用途，如由此引起的相关法律法规责任，由使用者个人承担！</p>
+		</div>
+		
+		<hr class="divider">
+		
+		<footer>
+			<p class="pull-right"><a href="#top">回到顶部</a></p>
+			<p>Copyright © 2015 ~ 2017 TingBrowser. All Rights Reserved </p>
+			
+		</footer>
+		
+		
+	</div>
+	
+	<div class="cnzz">
+		<p class="pull-left"><script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1260248351'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/z_stat.php%3Fid%3D1260248351%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script></p>
+	</div>
+	
+	
+	<div class="modal fade" tabindex="-1" role="dialog" id="about">
+	  <div class="modal-dialog" role="document">
+		<div class="modal-content">
+		  <div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			<h4 class="modal-title">关于</h4>
+		  </div>
+		  <div class="modal-body">
+			<p>TingBrowser [ TingChrome & TingFirefox ] 的推出只是为了方便大家的使用，大家要是有什么问题，可以<a href="http://jq.qq.com/?_wv=1027&k=2ITVx7A" target="_blank">进群交流</a>或者给我<a href="mailto:1@iyu.pub">发邮件</a>，我会及时回复的。</p>
+		  </div>
+		  <div class="modal-footer">
+			<button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+		  </div>
+		</div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+	
+    
+    <script src="js/jquery-3.1.1.min.js"></script>
+    
+    <script src="js/bootstrap.min.js"></script>
+	
+	<script>
+		$(document).ready(function(){
+			$("#demo-navbar .dropdown-menu a").click(function(){
+				var href = $(this).attr("href");
+				$("#tablist a[href='"+href+"']").tab("show");
+			});
+		});
+	</script>
+	
+	
+  </body>
+</html>
